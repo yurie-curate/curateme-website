@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf8f6">
+  <meta name="description" content="Curateme. は、好きな写真に自分の言葉を添え、見たい一枚にたどり着くためのアプリです。現在開発・テスト中です。">
+  <title>Curateme. — 好きな写真に、自分の言葉を。</title>
+  <style>
+    :root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif; color: #322a31; background: #faf8f6; }
+    * { box-sizing: border-box; }
+    body { min-height: 100svh; margin: 0; display: flex; flex-direction: column; }
+    main { width: min(100% - 48px, 880px); flex: 1; margin: auto; padding: 80px 0; display: flex; flex-direction: column; justify-content: center; }
+    .eyebrow { margin: 0 0 25px; color: #78646f; font-size: .78rem; letter-spacing: .16em; }
+    h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-weight: 500; font-size: clamp(3.1rem, 9vw, 6.3rem); line-height: 1.06; letter-spacing: -.055em; }
+    h1 span { color: #c78531; }
+    .rule { width: 45px; height: 2px; margin: 45px 0 32px; background: #c78531; }
+    .lead { margin: 0 0 19px; font-size: clamp(1.35rem, 3vw, 1.9rem); font-weight: 600; letter-spacing: .04em; line-height: 1.7; }
+    .copy { margin: 0; color: #5a5056; font-size: clamp(.98rem, 2vw, 1.1rem); line-height: 2.1; }
+    .status { width: fit-content; margin: 42px 0 0; padding: 9px 15px; border: 1px solid #ddced4; border-radius: 100px; color: #69505d; font-size: .8rem; letter-spacing: .05em; }
+    footer { width: min(100% - 48px, 880px); margin: 0 auto; padding: 0 0 31px; color: #8b8185; font-size: .75rem; }
+    @media (max-width: 600px) { main { width: min(100% - 40px, 880px); padding: 68px 0; } footer { width: min(100% - 40px, 880px); } .rule { margin: 34px 0 26px; } .status { margin-top: 34px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">YOUR PHOTOS, YOUR WORDS</p>
+    <h1>Curateme<span>.</span></h1>
+    <div class="rule" aria-hidden="true"></div>
+    <p class="lead">好きな写真に、自分の言葉を。</p>
+    <p class="copy">見たい一枚に、いつでもたどり着けるように。<br>Curateme. は現在、開発・テスト中です。</p>
+    <p class="status">ただいま準備中</p>
+  </main>
+  <footer>© Curateme.</footer>
+</body>
+</html>
